@@ -1,0 +1,230 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+main {
+    height: 100%;
+}
+
+p {
+    font-family: Helvetica, sans-serif;
+}
+
+h3 {
+    font-family: rockwell;
+    font-size: 20px;
+    color: black;
+}
+
+.main_container-columns {
+    display: flex;
+}
+
+.column_1 {
+    display: flex;
+}
+
+.column_1-main_heading {
+    color: red;
+    margin: 15px 30px 20px 30px;
+    font-family: Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 60px;
+}
+
+
+nav {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    box-sizing: border-box;
+    min-width: 200px;
+    background: #eee;
+}
+
+ul {
+    flex: 1;
+}
+
+ul li {
+    margin: 20px 30px 20px 30px;
+    list-style: none;
+}
+    
+ul li a {
+    text-decoration: none;
+    font-family: rockwell;
+    font-weight: bold;
+    font-size: 20px;
+    color: black;
+}
+
+ul > li {
+    margin-bottom: 40px;
+}
+
+.footer {
+    padding-bottom: 3%;
+}
+
+.footer p {
+    margin-left: 30px;
+    font-size: 12px;
+}
+
+.column_2 {
+    height: 100vh;
+    overflow: scroll;
+}
+
+h2 + p {
+line-height: 24px;
+color: #7F7F7F;
+}
+
+.colors  {
+margin-top: 35px;
+}
+
+.typography, .text_styles {
+    margin-top: 250px;
+}
+
+section {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.colors-title, .typography-title, .text_styles-title {
+    font-family: rockwell;
+    font-size: 35px;
+    color: black;
+}
+
+
+.colors-swatch_container1 {
+    margin-top: 30px;
+}
+
+.swatch-container {
+    width: 200px;
+    display: inline-block;
+    margin-right: 30px;
+    margin-top: 30px;
+}
+
+
+
+.all_swatches {
+    width: 200px;
+    height: 100px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+    text-align: center;
+}
+
+.swatch-title {
+    text-align: center;
+    margin-top: 15px;
+    
+}
+
+h3 ~ p {
+    color: #7F7F7F;
+    margin-top: 7px;
+    text-align: center;
+}
+
+.swatch_one {
+    background-color: #FF0000;
+}
+.swatch_two {
+    background-color:  #000000;
+}
+.swatch_three {
+    background-color: #7F7F7F;
+}
+.swatch_four {
+    background-color: #FFCBCB;
+}
+.swatch_five {
+    background-color: #F0F0F0;
+}
+.swatch_six {
+    background-color: #FFFFFF;
+    border: black solid 1px;
+}
+
+/*test*/
+.typography-font-container {
+    
+    max-width: 2000px;
+    margin: 0 auto;
+}
+
+.grid-row {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    margin-top: 30px;
+}
+
+/*test*/
+.font_one-column, .font_two-column {
+    flex-basis: 50%;
+    width: 400px;
+    position: relative;
+    margin-top: 20px;
+    padding-right: 20px;
+}
+
+.font_one-column > p {
+    text-align: left;
+}
+
+.font_two-column > p  {
+    text-align: left;
+    overflow: hidden;  
+}
+
+/*test*/
+.headings-column, .paragraph-column {
+    min-width: 275px;
+    flex-basis: 50%;
+    width: 400px;
+    position: relative;
+    padding-right: 20px;
+}
+
+.paragraph-column {
+    flex-basis: 50%;
+    width: 400px;
+    position: relative;
+    margin-top: 20px;
+    padding-right: 20px;
+    
+}
+
+
+.text_style-headings {
+    font-family: rockwell;
+    margin-top: 10px;
+    text-align: left;
+}
+
+.paragraph-column > p {
+    text-align: left;
+    overflow: hidden;
+}
+
+
+@media screen and (min-width: 650px) {
+    h2 + p {
+        width: 550px;
+        line-height: 24px;
+        color: #7F7F7F;
+        }
+  }
