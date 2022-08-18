@@ -159,21 +159,18 @@ h3 ~ p {
 
 .typography-font-container, .text_styles-container {
     
-    max-width: 1350px;
-    margin: 0 auto;
+    max-width: max-content;
 }
 
 .grid-row {
     display: flex;
     flex-flow: row wrap;
-    justify-content: flex-start;
     margin-top: 30px;
-    max-width: 2000px;
 }
 
 .font_one-column, .font_two-column {
     flex-basis: 50%;
-    width: 400px;
+    width: 500px;
     position: relative;
     margin-top: 20px;
     padding-right: 20px;
